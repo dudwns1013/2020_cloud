@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+
+html, body{
+  background-color: #333;
+  color: DEEPSKYBLUE;
+  font-family: 'Black Ops One', cursive;
+}
+
+#app{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.app-main{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-main > h1{
+  width: 100%;
+}
+
+
+.clockBox{  
+  height: 100%;
+  display: flex;
+  margin: 3px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clockBox > div{
+  width: 280px;
+  padding: 10px;
+  border: rgba(255,255,255,0.3) solid 3px;
+  border-radius: 1em;
+}
+
+.time {
+  font-size: 3em;
+}
+
+.ms{
+  margin-left: 2px;
+}
